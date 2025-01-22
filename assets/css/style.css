@@ -1,0 +1,28 @@
+
+*
+{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.debug {
+    * {
+        border: 1px dashed;
+    }
+}
+
+
+
+
+
+
+
+
+/* #region header */
+
+header{
+    background-color: chartreuse ;
+    padding: 1rem;
+}
+
+/* #endregion header */
