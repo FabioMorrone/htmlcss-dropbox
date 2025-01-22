@@ -7,6 +7,7 @@ box-sizing: border-box;
 
 .d-flex{
     display: flex;
+    height: 10rem;
 }
 
 .debug {
@@ -24,6 +25,19 @@ box-sizing: border-box;
             height: 100%;
             background-color: orange;
         }
+    }
+
+    .w-40,
+    .w-60 {
+        height: 300px;
+        background-color: blue;
+    }
+
+    .price{
+        height: 300px;
+    }
+    .col-4{
+        height: 300px;
     }
 }
 
@@ -78,7 +92,7 @@ box-sizing: border-box;
 
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -88,25 +102,51 @@ box-sizing: border-box;
 header{
     background-color: chartreuse ;
     padding: 1rem 0rem;
-    color: white;
+    color: rgb(0, 0, 0);
     
 
     ul.left_menu,
-    ul.right_menu{
+    ul.right_menu
+    {
         list-style: none;
         display: flex;
     }
-    a{
+
+    a
+    {
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 }
 
 /* #endregion header */
 
+
+
 /* #region main */
 
+main{
+    background-color: aqua;
+    
+    
+    .table{
+        background-color: azure;
+        
+        
+    }
+    .col-4{
+        background-color: beige;
+        
+    }
+}
 
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
 
 /* #endregion main */
 
