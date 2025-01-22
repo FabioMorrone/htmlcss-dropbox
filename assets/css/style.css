@@ -1,21 +1,21 @@
-
-*
-{margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
-    height: 10rem;
+
 }
 
 .debug {
     * {
         border: 1px dashed;
     }
+
     .container {
-        background-color: orange;
+        background-color: rgb(82, 69, 45);
     }
 
     .jumbotron {
@@ -23,7 +23,7 @@ box-sizing: border-box;
 
         .content {
             height: 100%;
-            background-color: orange;
+            background-color: rgb(133, 88, 5);
         }
     }
 
@@ -33,61 +33,70 @@ box-sizing: border-box;
         background-color: blue;
     }
 
-    .price{
+    .price {
         height: 300px;
     }
-    .col-4{
+
+    .col-4 {
         height: 300px;
+    }
+
+    .card {
+        background-color: rgb(7, 58, 11);
+    }
+
+    .p-pagina {
+        height: 300px;
+        background-color: brown;
     }
 }
 
-.col-1
-{
-  width: calc(100% / 12 * 1);
+.col-1 {
+    width: calc(100% / 12 * 1);
 }
-.col-2
-{
-  width: calc(100% / 12 * 2);
+
+.col-2 {
+    width: calc(100% / 12 * 2);
 }
-.col-3
-{
-  width: calc(100% / 12 * 3);
+
+.col-3 {
+    width: calc(100% / 12 * 3);
 }
-.col-4
-{
-  width: calc(100% / 12 * 4);
+
+.col-4 {
+    width: calc(100% / 12 * 4);
 }
-.col-5
-{
-  width: calc(100% / 12 * 5);
+
+.col-5 {
+    width: calc(100% / 12 * 5);
 }
-.col-6
-{
-  width: calc(100% / 12 * 6);
+
+.col-6 {
+    width: calc(100% / 12 * 6);
 }
-.col-7
-{
-  width: calc(100% / 12 * 7);
+
+.col-7 {
+    width: calc(100% / 12 * 7);
 }
-.col-8
-{
-  width: calc(100% / 12 * 8);
+
+.col-8 {
+    width: calc(100% / 12 * 8);
 }
-.col-9
-{
-  width: calc(100% / 12 * 9);
+
+.col-9 {
+    width: calc(100% / 12 * 9);
 }
-.col-10
-{
-  width: calc(100% / 12 * 10);
+
+.col-10 {
+    width: calc(100% / 12 * 10);
 }
-.col-11
-{
-  width: calc(100% / 12 * 11);
+
+.col-11 {
+    width: calc(100% / 12 * 11);
 }
-.col-12
-{
-  width: calc(100% / 12 * 12);
+
+.col-12 {
+    width: calc(100% / 12 * 12);
 }
 
 
@@ -99,21 +108,19 @@ box-sizing: border-box;
 
 /* #region header */
 
-header{
-    background-color: chartreuse ;
+header {
+    background-color: chartreuse;
     padding: 1rem 0rem;
     color: rgb(0, 0, 0);
-    
+
 
     ul.left_menu,
-    ul.right_menu
-    {
+    ul.right_menu {
         list-style: none;
         display: flex;
     }
 
-    a
-    {
+    a {
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
@@ -125,20 +132,31 @@ header{
 
 /* #region main */
 
-main{
+main {
     background-color: aqua;
-    
-    
-    .table{
+
+
+    .table {
         background-color: azure;
-        
-        
+
+
     }
-    .col-4{
+
+    .table {
         background-color: beige;
-        
+
+    }
+
+    .card {
+
+        height: 15rem;
     }
 }
+
+
+
+
+
 
 .w-40 {
     width: 40%;
@@ -149,5 +167,3 @@ main{
 }
 
 /* #endregion main */
-
-
