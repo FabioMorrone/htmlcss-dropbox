@@ -221,12 +221,35 @@ padding: 1rem 2rem;
     }
 }
 
-.raw {
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
 
+.price{
+    padding: 6rem;
+    
+
+    .fattura{
+        display: flex;
+        padding: -1 -1rem;
+        margin: 1rem;
+        
+        
+        p{
+            padding: 1rem;
+            .fa-solid{
+                color: var(--box-primary);
+            }
+            .fa-regular{
+                color: rgb(170, 163, 163);
+            }
+        }
+    
+
+    }
+}
 
 
 
