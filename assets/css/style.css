@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+
+:root{
+    --box-dark: #000000;
+    --box-primary :#0062ff;
+    --box-secondary: #b4d0e6;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    min-width: 1440px;
+}
+
 .d-flex {
     display: flex;
 
@@ -105,8 +118,16 @@
 
 
 .container {
+    width: 80%;
+    margin: auto;
+    max-width: 1152px;
+
+}
+.container-sm {
     width: 70%;
     margin: auto;
+    max-width: 992px;
+
 }
 
 
@@ -114,21 +135,57 @@
 
 header {
 
-    padding: 1rem 0rem;
-    color: rgb(0, 0, 0);
+    padding: 0 1rem;
+    color: white;
+
+
 
     nav {
         display: flex;
-    }
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        .left_menu,
+        .right_menu,
+        ul {
+            align-items: center;
+            display: flex;
+            list-style: none;
+        }
+
+
+        a {
+
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
 
 
 
-    a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
+
+
     }
 }
 
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    text-decoration: none;
+    margin: 0;
+
+
+}
+
+.btn-primary {
+    background-color: var(--box-primary)
+    
+}
 
 /* #endregion header */
 
@@ -136,28 +193,36 @@ header {
 
 /* #region main */
 
-main {
-    background-color: aqua;
-
-
-    .table {
-        background-color: azure;
+.jumbotron {
+    
+    height: 600px;
+    background-color: var(--box-secondary);
+    margin-bottom: 6rem;
+    
+    h1{
+        font-size: 4.5rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    p{
+        line-height: 1.75rem;
+        font-size: 1rem;
+        margin-bottom: 2rem;
 
 
     }
-
-    .table {
-        background-color: beige;
-
-    }
-
-    .card {
-
-        height: 15rem;
+    
+    
+    img{
+        width: 120%;
     }
 }
 
-
+.raw{
+    display:flex ;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
 
 
 
