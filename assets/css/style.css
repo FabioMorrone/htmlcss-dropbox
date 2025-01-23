@@ -49,6 +49,10 @@
         height: 300px;
         background-color: brown;
     }
+
+    .column {
+        height: 500px;
+    }
 }
 
 .col-1 {
@@ -109,22 +113,22 @@
 /* #region header */
 
 header {
-    background-color: chartreuse;
+
     padding: 1rem 0rem;
     color: rgb(0, 0, 0);
 
-
-    ul.left_menu,
-    ul.right_menu {
-        list-style: none;
+    nav {
         display: flex;
     }
+
+
 
     a {
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
 }
+
 
 /* #endregion header */
 
