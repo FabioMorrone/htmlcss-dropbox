@@ -5,9 +5,9 @@
 }
 
 
-:root{
+:root {
     --box-dark: #000000;
-    --box-primary :#0062ff;
+    --box-primary: #0062ff;
     --box-secondary: #b4d0e6;
 }
 
@@ -123,6 +123,7 @@ body {
     max-width: 1152px;
 
 }
+
 .container-sm {
     width: 70%;
     margin: auto;
@@ -177,14 +178,15 @@ header {
     display: inline-block;
     padding: 0.25rem 0.75rem;
     text-decoration: none;
-    margin: 0;
-
+    background-color: var(--box-primary);
+    
 
 }
 
-.btn-primary {
-    background-color: var(--box-primary)
-    
+.btn-secondary{
+padding: 1rem 2rem;
+
+
 }
 
 /* #endregion header */
@@ -194,32 +196,33 @@ header {
 /* #region main */
 
 .jumbotron {
-    
+
     height: 600px;
     background-color: var(--box-secondary);
     margin-bottom: 6rem;
-    
-    h1{
+
+    h1 {
         font-size: 4.5rem;
         font-weight: 900;
         margin-bottom: 2rem;
     }
-    p{
+
+    p {
         line-height: 1.75rem;
         font-size: 1rem;
         margin-bottom: 2rem;
 
 
     }
-    
-    
-    img{
+
+
+    img {
         width: 120%;
     }
 }
 
-.raw{
-    display:flex ;
+.raw {
+    display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
